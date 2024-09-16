@@ -1,0 +1,52 @@
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes it full height */
+    background-color: #f0f0f0; /* Light grey background */
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .userContainer,
+  .passwordContainer {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  
+  .userContainer input,
+  .passwordContainer input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  .buttonContainer {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 200px;
+  }
+  
+  .buttonContainer button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .buttonContainer button:hover {
+    background-color: #45a049;
+  }
