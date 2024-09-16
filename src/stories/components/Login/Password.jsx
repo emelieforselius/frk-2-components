@@ -1,10 +1,14 @@
 import React from "react";
 
-const Password = () => {
+const Password = ({onPasswordChange}) => {
+
+    const onPasswordComplete = (e) => {
+        onPasswordChange(e.target.value);
+    } 
     return(
         <div>
             Password
-            <input type='password'/>
+            <input type='password' onChange={onPasswordComplete}/>
         </div>
     )
 }

@@ -1,10 +1,15 @@
 import React from "react";
 
-const User = () => {
+const User = ({onUserChange}) => {
+
+    const onUserComplete = (e) => {
+        onUserChange(e.target.value);
+    }
+
     return(
         <div>
             User
-            <input type='text'/>
+            <input type='text' onBlur={onUserComplete}/>
         </div>
     )
 }
