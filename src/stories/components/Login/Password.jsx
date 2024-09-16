@@ -2,7 +2,10 @@ import React from "react";
 
 const Password = () => {
     return(
-        <>Password</>
+        <div>
+            Password
+            <input type='password'/>
+        </div>
     )
 }
 
