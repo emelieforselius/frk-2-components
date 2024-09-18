@@ -3,8 +3,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Makes it full height */
-    background-color: #f0f0f0; /* Light grey background */
+    height: 100vh; 
+    background-color: #f0f0f0; 
     font-family: Arial, sans-serif;
   }
   
@@ -38,7 +38,7 @@
   
   .buttonContainer button {
     width: 100%;
-    padding: 10px;
+    padding: 15px;
     background-color: #4caf50;
     color: white;
     border: none;
